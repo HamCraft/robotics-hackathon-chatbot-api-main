@@ -1,0 +1,4 @@
+fastapi>=0.122.0
+httpx
+openai-agents>=0.6.1
+pydantic>=2.12.5
