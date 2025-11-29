@@ -88,7 +88,7 @@ async def lifespan(app: FastAPI):
     print("🚀 Starting up...")
     
     # Initialize simple RAG
-    rag_system = SimpleRAG("https://phys-five.vercel.app/")
+    rag_system = SimpleRAG("https://robotics-hackathon.vercel.app/")
     await rag_system.fetch_content()
     print("✓ Content loaded")
     
